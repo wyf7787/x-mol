@@ -1,0 +1,211 @@
+title,magazine,author,abstract
+pyDSM: GPU-accelerated rheology predictions for entangled polymers in Python,"Computer Physics Communications (IF 4.717 )
+
+                
+
+                Pub Date : 2023-05-18 ,DOI:10.1016/j.cpc.2023.108786","Jeffrey G. Ethier, Andrés Córdoba, Jay D. Schieber","slip-link model and the clustered fixed slip-link model in Python . Our work shows that Python can also utilize GPUs for fast quantitative rheological predictions. Our simulation code, named pyDSM, allows an easy-to-read and beginner-friendly approach for users wanting to utilize the efficiency of GPU computing while also enabling an open-source Python package that can easily couple or interact with other
+
+                ..."
+Gos: a declarative library for interactive genomics visualization in Python,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-01-23 ,DOI:10.1093/bioinformatics/btad050","Trevor Manz, Sehi L’Yi, Nils Gehlenborg","Summary Gos is a declarative Python library designed to create interactive multiscale visualizations of genomics and epigenomics data. It provides a consistent and simple interface to the flexible Gosling visualization grammar. Gos hides technical complexities involved with configuring web-based genome browsers and integrates seamlessly within computational notebooks environments to enable new interactive
+
+                ..."
+peaks2utr: a robust Python tool for the annotation of 3’ UTRs,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-03-03 ,DOI:10.1093/bioinformatics/btad112","William Haese-Hill, Kathryn Crouch, Thomas D Otto","yet is mostly overlooked in annotation pipelines. Here we present peaks2utr, an easy-to-use Python command line tool that uses the UTR enrichment of single-cell technologies, such as 10x Chromium, to accurately annotate 3’ UTRs for a given canonical annotation. Availability peaks2utr is implemented in Python 3 (≥ 3.8). It is available via PyPI at https://pypi.org/project/peaks2utr and GitHub at https://github
+
+                ..."
+pynucastro: A Python Library for Nuclear Astrophysics,"The Astrophysical Journal (IF 5.521 )
+
+                
+
+                Pub Date : 2023-04-21 ,DOI:10.3847/1538-4357/acbaff","Alexander I. Smith, Eric T. Johnson, Zhi Chen, Kiran Eiden, Donald E. Willcox, Brendan Boyd, Lyra Cao, Christopher J. DeGrendele, Michael Zingale","We describe pynucastro 2.0, an open-source library for interactively creating and exploring astrophysical nuclear reaction networks. We demonstrate new methods for approximating rates and use detailed balance to create reverse rates, show how to build networks and determine whether they are appropriate for a particular science application, and discuss the changes made to the library over the past few
+
+                ..."
+MolClustPy: A Python Package to characterize multivalent biomolecular clusters,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-06-16 ,DOI:10.1093/bioinformatics/btad385","Aniruddha Chattaraj, Indivar Nalagandla, Leslie M Loew, Michael L Blinov","statistical analysis offered by MolClustPy is readily applicable to other stochastic simulation software, such as SpringSaLaD and Readdy. Availability and implementation The software is implemented in Python . A detailed Jupyter notebook is provided to enable convenient running. Code, user guide and examples are freely available at https://molclustpy.github.io/ Supplementary information Available at https://molclustpy
+
+                ..."
+SBML2HYB: a Python interface for SBML compatible hybrid modelling,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-01-20 ,DOI:10.1093/bioinformatics/btad044","José Pinto, Rafael S Costa, Leonardo Alexandre, J Ramos, Rui Oliveira","possible the SBML rules. We expect the sbml2hyb tool and HMOD to greatly facilitate the widespread usage of hybrid modeling techniques for biological systems analysis. Availability and implementation The Python interface, source code and the example models used for the case studies are accessible at: https://github.com/r-costa/sbml2hyb. Supplementary information Supplementary data are available at Bioinformatics
+
+                ..."
+"﻿Burmese pythons in Florida: A synthesis of biology, impacts, and management tools","NeoBiota (IF 4.225 )
+
+                
+
+                Pub Date : 2023-01-10 ,DOI:10.3897/neobiota.80.90439","Jacquelyn C. Guzy, Bryan G. Falk, Brian J. Smith, John David Willson, Robert N. Reed, Nicholas G. Aumen, Michael L. Avery, Ian A. Bartoszek, Earl Campbell, Michael S. Cherkiss, Natalie M. Claunch, Andrea F. Currylow, Tylan Dean, Jeremy Dixon, Richard Engeman, Sarah Funck, Rebekah Gibble, Kodiak C. Hengstebeck, John S. Humphrey, Margaret E. Hunter, Jillian M. Josimovich, Jennifer Ketterlin, Michael","﻿ Burmese pythons ( Python molurus bivittatus) are native to southeastern Asia, however, there is an established invasive population inhabiting much of southern Florida throughout the Greater Everglades Ecosystem. Pythons have severely impacted native species and ecosystems in Florida and represent one of the most intractable invasive-species management issues across the globe. The difficulty stems
+
+                ..."
+GIL: A python package for designing custom indexing primers,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-05-20 ,DOI:10.1093/bioinformatics/btad328","Nicholas Mateyko, Omar Tariq, Xinyi E Chen, Will Cheney, Asfar Lathif Salaudeen, Ishika Luthra, Najmeh Nikpour, Abdul Muntakim Rafi, Hadis Kamali Deghan, Cassandra Jensen, Carl de Boer","specifications, including length, sequencing modality, color balancing, and compatibility with existing primers, and produces ordering and demultiplexing-ready outputs. Availability GIL is written in Python and is freely available on GitHub under the MIT license: https://github.com/de-Boer-Lab/GIL and can be accessed as a web-application implemented in Streamlit at https://dbl-gil.streamlitapp.com. Supplementary
+
+                ..."
+Inflation: a Python library for classical and quantum causal compatibility,"Quantum (IF 6.439 )
+
+                
+
+                Pub Date : 2023-05-04 ,DOI:10.22331/q-2023-05-04-996","Emanuel-Cristian Boghiu, Elie Wolfe, Alejandro Pozas-Kerstjens","We introduce Inflation, a Python library for assessing whether an observed probability distribution is compatible with a causal explanation. This is a central problem in both theoretical and applied sciences, which has recently witnessed significant advances from the area of quantum nonlocality, namely, in the development of inflation techniques. Inflation is an extensible toolkit that is capable of
+
+                ..."
+Biotite: new tools for a versatile Python bioinformatics library,"BMC Bioinformatics (IF 3.307 )
+
+                
+
+                Pub Date : 2023-06-05 ,DOI:10.1186/s12859-023-05345-6","Patrick Kunzmann, Tom David Müller, Maximilian Greil, Jan Hendrik Krumbach, Jacob Marcel Anter, Daniel Bauer, Faisal Islam, Kay Hamacher","Biotite is a program library for sequence and structural bioinformatics written for the Python programming language. It implements widely used computational methods into a consistent and accessible package. This allows for easy combination of various data analysis, modeling and simulation methods. This article presents major functionalities introduced into Biotite since its original publication. The
+
+                ..."
+PyHMMER: A Python library binding to HMMER for efficient sequence analysis,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-04-19 ,DOI:10.1093/bioinformatics/btad214","Martin Larralde, Georg Zeller","Summary PyHMMER provides Python integration of the popular profile Hidden Markov Model software HMMER via Cython bindings. This allows annotation of protein sequences with profile HMMs and building new ones directly with Python . PyHMMER increases flexibility of use, allowing creating queries directly from Python code, launching searches and obtaining results without I/O, or accessing previously unavailable
+
+                ..."
+Body size predicts prey preference but not diet breadth in pythons,"Journal of Zoology (IF 2.394 )
+
+                
+
+                Pub Date : 2023-06-06 ,DOI:10.1111/jzo.13092","J. M. Barends, H. Naik","dwarf and giant snakes. We gathered ecological data of pythons and tested if python body lengths correlated with diet breadth and diet preferences respectively within a phylogenetic framework. Next, we reconstructed ancestral diets (as proportional use of ectothermic prey in their diets) and body lengths across a phylogeny of 36 species of pythons to explore the evolutionary relationship between these
+
+                ..."
+An open source Python library for environmental isotopic modelling,"Scientific Reports (IF 4.996 )
+
+                
+
+                Pub Date : 2023-02-02 ,DOI:10.1038/s41598-023-29073-2","Ashkan Hassanzadeh, Sonia Valdivielso, Enric Vázquez-Suñé, Rotman Criollo, Mercè Corbella","Isotopic composition modelling is a key aspect in many environmental studies. This work presents Isocompy, an open source Python library that estimates isotopic compositions through machine learning algorithms with user-defined variables. Isocompy includes dataset preprocessing, outlier detection, statistical analysis, feature selection, model validation and calibration and postprocessing. This tool
+
+                ..."
+pandasGWAS: a Python package for easy retrieval of GWAS catalog data,"BMC Genomics (IF 4.547 )
+
+                
+
+                Pub Date : 2023-05-04 ,DOI:10.1186/s12864-023-09340-2","Tianze Cao, Anshui Li, Yuexia Huang","rapidly. Easy-to-use, open-source, general-purpose programs for accessing the NHGRI-EBI Catalog of human genome-wide association studies are in great demand for current Python data analysis pipeline. In this work we present pandasGWAS, a Python package that provides programmatic access to the NHGRI-EBI Catalog of human genome-wide association studies. Instead of downloading all data locally, pandasGWAS queries
+
+                ..."
+pyerrors: A python framework for error analysis of Monte Carlo data,"Computer Physics Communications (IF 4.717 )
+
+                
+
+                Pub Date : 2023-04-13 ,DOI:10.1016/j.cpc.2023.108750","Fabian Joswig, Simon Kuberski, Justus T. Kuhlmann, Jan Neuendorf","Solution method: Linear error propagation in combination with automatic differentiation is implemented in a new python data type which keeps track of statistical errors across multiple sources of uncertainty. Operator overloading allows for a seamless integration into the scientific python ecosystem and into existing workflows. The Γ-method facilitates a controlled estimate of integrated autocorrelation
+
+                ..."
+Trackintel: An open-source Python library for human mobility analysis,"Computers, Environment and Urban Systems (IF 6.454 )
+
+                
+
+                Pub Date : 2023-02-07 ,DOI:10.1016/j.compenvurbsys.2023.101938","Henry Martin, Ye Hong, Nina Wiedemann, Dominik Bucher, Martin Raubal","standardized and consequently limit the reproducibility, comparability, and transferability of methods and results in quantitative human mobility analysis. This paper presents Trackintel, an open-source Python library for human mobility analysis. Trackintel is built on a standard data model for human mobility used in transport planning that is compatible with different types of tracking data. We introduce
+
+                ..."
+MEALPY: An open-source library for latest meta-heuristic algorithms in Python,"Journal of Systems Architecture (IF 5.836 )
+
+                
+
+                Pub Date : 2023-04-05 ,DOI:10.1016/j.sysarc.2023.102871","Nguyen Van Thieu, Seyedali Mirjalili","two decades. However, there is no library implementing meta-heuristic algorithms, which is easy to use and has a vast collection of algorithms. This paper proposes an open-source and cross-platform Python library for nature-inspired optimization algorithms called Mealpy. To propose Mealpy, we analyze the features of existing libraries for meta-heuristic algorithms. After, we propose the designation
+
+                ..."
+Seispy: Python Module for Batch Calculation and Postprocessing of Receiver Functions,"Seismological Research Letters (IF 4.288 )
+
+                
+
+                Pub Date : 2023-03-01 ,DOI:10.1785/0220220288","Mijian Xu, Jing He","time‐to‐depth conversion, 2D or 3D CCP stacking, and adaptive station or bin selection for CCP stacking profiles in a dense seismic array or a linear seismic array. As a Python module, functions in the Seispy can be called easily in Python scripts for other purposes. The modular design allows new functionality to be added in a collaborative development environment. Licensed under GPLv3, Seispy allow users
+
+                ..."
+Pickaxe: a Python library for the prediction of novel metabolic reactions,"BMC Bioinformatics (IF 3.307 )
+
+                
+
+                Pub Date : 2023-03-22 ,DOI:10.1186/s12859-023-05149-8","Kevin M. Shebek, Jonathan Strutz, Linda J. Broadbelt, Keith E. J. Tyo","an E. coli dataset. Pickaxe predicts novel metabolic reactions and compounds, which can be used for a variety of applications. This software is open-source and available as part of the MINE Database python package ( https://pypi.org/project/minedatabase/ ) or on GitHub ( https://github.com/tyo-nu/MINE-Database ). Documentation and examples can be found on Read the Docs ( https://mine-database.readthedocs
+
+                ..."
+Pychastic: Precise Brownian dynamics using Taylor-Itō integrators in Python,"SciPost Physics (IF 6.554 )
+
+                
+
+                Pub Date : 2023-04-03 ,DOI:10.21468/scipostphyscodeb.11","Radost Waszkiewicz, Maciej Bartczak, Kamil Kolasa, Maciej Lisicki","simulations such as calculations of the divergence of the mobility tensor in the diffusion equation and discontinuous trajectories encountered when working with dynamics on $S^2$ and $SO(3)$. The resulting Python package, Pychastic, is capable of performing BD simulations including hydrodynamic interactions at speeds comparable to dedicated implementations in lower-level programming languages, but with a much
+
+                ..."
+The DynaSig-ML Python package: automated learning of biomolecular dynamics-function relationships,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-04-20 ,DOI:10.1093/bioinformatics/btad180","Olivier Mailhot, François Major, Rafael Najmanovich","The DynaSig-ML (“Dynamical Signatures—Machine Learning”) Python package allows the efficient, user-friendly exploration of 3D dynamics-function relationships in biomolecules, using datasets of experimental measures from large numbers of sequence variants. It does so by predicting 3D structural dynamics for every variant using the Elastic Network Contact Model (ENCoM), a sequence-sensitive coarse-grained
+
+                ..."
+Foundations of Statistics for Data Scientists: With R and Python,"Journal of Quality Technology (IF 2.182 )
+
+                
+
+                Pub Date : 2023-04-05 ,DOI:10.1080/00224065.2023.2192882",Lawrence Leemis,"Published in Journal of Quality Technology: A Quarterly Journal of Methods, Applications and Related Topics (Ahead of Print, 2023)
+
+                ..."
+Foundations of Statistics for Data Scientists: With R and Python,"Technometrics (IF 2.333 )
+
+                
+
+                Pub Date : 2023-02-01 ,DOI:10.1080/00401706.2022.2163806",Roger Sauter,"Published in Technometrics (Vol. 65, No. 1, 2023)
+
+                ..."
+HiClass: a Python Library for Local Hierarchical Classification Compatible with Scikit-learn,"Journal of Machine Learning Research (IF 5.177 )
+
+                
+
+                Pub Date : 2023-01-01 ,DOI:","Fábio M. Miranda, Niklas Köhnecke, Bernhard Y. Renard","HiClass is an open-source Python library for local hierarchical classification entirely compatible with scikit-learn. It contains implementations of the most common design patterns for hierarchical machine learning models found in the literature, that is, the local classifiers per node, per parent node and per level. Additionally, the package contains implementations of hierarchical metrics, which
+
+                ..."
+Teaching Python programming for bioinformatics with Jupyter notebook in the Post-COVID-19 era,"Biochemistry and Molecular Biology Education (IF 1.369 )
+
+                
+
+                Pub Date : 2023-05-18 ,DOI:10.1002/bmb.21746","Yash Munnalal Gupta, Satwika Nindya Kirana, Somjit Homchan, Supatcharee Tanasarnpaiboon","document. This feature enables students to interact with the code and results, making the learning process more engaging and effective. Jupyter Notebook provides a hybrid approach to learning basic Python scripting and genomics that is effective for remote teaching and learning during the COVID-19 pandemic.
+
+                ..."
+PascalX: a python library for GWAS gene and pathway enrichment tests,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-05-03 ,DOI:10.1093/bioinformatics/btad296","Daniel Krefl, Alessandro B Cammarata, Sven Bergmann","Summary PascalX is a Python library providing fast and accurate tools for mapping SNP-wise GWAS summary statistics. Specifically, it allows for scoring genes and annotated gene sets for enrichment signals based on data from, both, single GWAS and pairs of GWAS. The gene scores take into account the correlation pattern between SNPs. They are based on the cumulative density function of a linear combination
+
+                ..."
+Python code smells detection using conventional machine learning models,"PeerJ Computer Science (IF 2.411 )
+
+                
+
+                Pub Date : 2023-05-29 ,DOI:10.7717/peerj-cs.1370","Rana Sandouka, Hamoud Aljamaan","programming language code smell datasets. This article proposes a Python code smell dataset for Large Class and Long Method code smells. The built dataset contains 1,000 samples for each code smell, with 18 features extracted from the source code. Furthermore, we investigated the detection performance of six machine learning models as baselines in Python code smells detection. The baselines were evaluated based
+
+                ..."
+Towards an understanding of memory leak patterns: an empirical study in Python,"Software Quality Journal (IF 1.813 )
+
+                
+
+                Pub Date : 2023-06-17 ,DOI:10.1007/s11219-023-09641-5","Jie Chen, Dongjin Yu, Haiyang Hu","earlier stage during the development process and may further inspire future research. Eight code patterns are found in our case study specifically for memory leaks caused by circular references in Python . The observed patterns can explain 91.64% of the memory leaks in the studied projects. Our work can guide important decisions about the possibility of identifying memory leaks with static code analysis
+
+                ..."
+Three-Dimensional Reconstruction of Coronal Features: A Python Tool for Geometric Triangulation,"Solar Physics (IF 2.961 )
+
+                
+
+                Pub Date : 2023-03-03 ,DOI:10.1007/s11207-023-02122-9",Giuseppe Nisticò,"method was shown to retrieve easily the main geometric parameters that define a loop, such as the loop axes and the loop plane. In this article, an extension of that work is presented that includes a Python tool for performing geometric triangulation of coronal features seen by two different observers.
+
+                ..."
+Morphoscanner2.0: A new python module for analysis of molecular dynamics simulations.,"PLOS ONE (IF 3.752 )
+
+                
+
+                Pub Date : 2023-04-27 ,DOI:10.1371/journal.pone.0284307","Federico Fontana,Calogero Carlino,Ashish Malik,Fabrizio Gelain","we introduce Morphoscanner2.0. Morphoscanner2.0 is an object-oriented library for structural and temporal analysis of atomistic and coarse-grained molecular dynamics (CG-MD) simulations written in Python . The library leverages MDAnalysis, PyTorch and NetworkX to perform the pattern recognition of secondary structure patterns, and interfaces with Pandas, Numpy and Matplotlib to make the results accessible
+
+                ..."

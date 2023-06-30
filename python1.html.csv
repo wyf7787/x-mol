@@ -1,0 +1,207 @@
+title,magazine,author,abstract
+pyTDGL: Time-dependent Ginzburg-Landau in Python,"Computer Physics Communications (IF 4.717 )
+
+                
+
+                Pub Date : 2023-05-29 ,DOI:10.1016/j.cpc.2023.108799",Logan Bishop-Van Horn,"17632/t6z7szt9bj.1 Developer's repository link: http://www.github.com/loganbvh/py-tdgl Code Ocean capsule: https://codeocean.com/capsule/2460583 Licensing provisions: MIT License Programming language: Python Nature of problem: pyTDGL solves a generalized time-dependent Ginzburg-Landau (TDGL) equation for two-dimensional superconductors of arbitrary geometry, enabling simulations of vortex and phase slip
+
+                ..."
+pyGOMoDo: GPCRs modeling and docking with python,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-05-03 ,DOI:10.1093/bioinformatics/btad294","Rui P Ribeiro, A Giorgetti","Motivation We present pyGOMoDo, a Python library to perform homology modeling and docking, specifically designed for human GPCRs. pyGOMoDo is a python wrap-up of the updated functionalities of GOMoDo web server (https://gomodo.grs.kfa-juelich.de). It was developed having in mind its usage through Jupyter notebooks, where users can create their own protocols of modeling and docking of GPCRs. In this
+
+                ..."
+PyCIL: a Python toolbox for class-incremental learning,"Science China Information Sciences (IF 7.275 )
+
+                
+
+                Pub Date : 2023-04-19 ,DOI:10.1007/s11432-022-3600-y","Da-Wei Zhou, Fu-Yun Wang, Han-Jia Ye, De-Chuan Zhan","We have presented PyCIL, a classincremental learning toolbox written in Python . It contains implementations of a number of founding studies of CIL, but also provides current state-of-the-art algorithms that can be used to conduct novel fundamental research. Code consistency makes it an easy tool for research purposes, teaching, and industrial applications.
+
+                ..."
+Egg-smol Python : A Pythonic Library for E-graphs,"arXiv - CS - Programming Languages Pub Date : 2023-05-07 ,DOI:arxiv-2305.04311",Saul Shanabrook,"techniques such as equality saturation. This paper introduces Python bindings for the experimental egg-smol library, which aims to bring the benefits of e-graphs to the Python ecosystem. The bindings offer a high-level, Pythonic API providing an accessible and familiar interface for Python users. By integrating e-graph techniques with Python , we hope to enable collaboration and innovation across various
+
+                ..."
+PyXLA: Python x-ray-tracing for Lobster-Eye application,"Journal of Optics (IF 2.077 )
+
+                
+
+                Pub Date : 2023-03-31 ,DOI:10.1088/2040-8986/acc2cc","Ondrej Nentvich, Martin Urban, Rene Hudec","which raised interest in recent years, and will be considered for simulations and description and is perspective for space missions. This paper introduces a newly developed simulator, PyXLA, written in Python and which evaluates and simulates specific types of x-ray reflective optics, particularly LE optics. The software utilises fundamental ray-tracing principles and, in combination with design, can determine
+
+                ..."
+A Python script for discontinuity layout optimization,"Structural and Multidisciplinary Optimization (IF 4.279 )
+
+                
+
+                Pub Date : 2023-06-21 ,DOI:10.1007/s00158-023-03583-z","Linwei He, Mattia Schiantella, Matthew Gilbert, Colin C. Smith","Notably the basic DLO method uses the same underlying mathematical formulation as ‘ground structure’-based truss layout (or ‘topology’) optimization and is demonstrated in this contribution via a Python script capable of solving plane strain limit analysis problems. Extensions to the basic method are presented to allow treatment of larger-scale problems incorporating cohesive-frictional materials
+
+                ..."
+EGTtools: Evolutionary game dynamics in Python,"iScience (IF 6.107 )
+
+                
+
+                Pub Date : 2023-03-17 ,DOI:10.1016/j.isci.2023.106419","Elias Fernández Domingos, Francisco C. Santos, Tom Lenaerts","sciences, in many decades. Nevertheless, there has been no open source library that provided easy, and efficient, access to these methods and models. Here, we introduce EGTtools, an efficient hybrid C++/ Python library which provides fast implementations of both analytical and numerical EGT methods. EGTtools is able to analytically evaluate a system based on the replicator dynamics. It is also able to evaluate
+
+                ..."
+Pattern-based circular reference detection in Python,"Science of Computer Programming (IF 1.039 )
+
+                
+
+                Pub Date : 2023-02-23 ,DOI:10.1016/j.scico.2023.102932","Jie Chen, Tao Jiang, Dongjin Yu, Haiyang Hu","dataset collected from 671 open-source projects at runtime. With these patterns in mind, developers can be aware of where potential circular references might be coming from, leading to more robust Python codes and ultimately lightening the garbage collection workload, and also potentially altering their coding practices. Then, we design CRef, a pattern-based approach for detecting circular references
+
+                ..."
+PyVisualFields: A Python Package for Visual Field Analysis,"Translational Vision Science & Technology (IF 3.048 )
+
+                
+
+                Pub Date : 2023-02-01 ,DOI:10.1167/tvst.12.2.6","Mohammad Eslami, Saber Kazeminasab, Vishal Sharma, Yangjiani Li, Mojtaba Fazli, Mengyu Wang, Nazlee Zebardast, Tobias Elze","to define the overlaps and distinct functions. Then, we defined and translated this functionality into Python with the help of the wrapper library rpy2. Besides maintaining, the subsequent versions’ milestones are established, and the third version will be R-independent. Results: The developed Python package is available as open-source software via the GitHub repository and is ready to be installed from
+
+                ..."
+Teaching Nash equilibrium with Python,"The Journal of Economic Education (IF 1.237 )
+
+                
+
+                Pub Date : 2023-01-29 ,DOI:10.1080/00220485.2023.2168813",Allison Oldham Luedtke,"Abstract The author describes an assignment in an undergraduate game theory course in which students work together in class to develop a computer algorithm to identify Nash equilibria. This assignment builds basic computer science skills while applying game theory knowledge to real-world situations. Students work as a team to delineate the steps and write a program to identify all of the pure-strategy
+
+                ..."
+pyCHARMM: Embedding CHARMM Functionality in a Python Framework,"Journal of Chemical Theory and Computation (IF 6.578 )
+
+                
+
+                Pub Date : 2023-06-02 ,DOI:10.1021/acs.jctc.3c00364","Joshua Buckner, Xiaorong Liu, Arghya Chakravorty, Yujin Wu, Luis F. Cervantes, Thanh T. Lai, Charles L. Brooks III","variables, and force field related parameters. The ability to augment CHARMM forces and energies with energy terms or methods derived from machine learning or other sources, written in Python , CUDA, or OpenCL and expressed as Python callable routines is introduced together with analogous functions callable during dynamics calculations. Integration of Python-based graphical engines for visualization of simulation
+
+                ..."
+Empirical analysis of security vulnerabilities in Python packages,"Empirical Software Engineering (IF 3.762 )
+
+                
+
+                Pub Date : 2023-03-25 ,DOI:10.1007/s10664-022-10278-4","Mahmoud Alfadel, Diego Elias Costa, Emad Shihab","reports affecting 698 Python packages in the Python ecosystem (PyPi). In particular, we study the propagation and life span of security vulnerabilities, accounting for how long they take to be discovered and fixed. In addition, vulnerabilities in packages may affect software projects that depend on them (dependent projects), making them vulnerable too. We study a set of 2,224 GitHub Python projects, to better
+
+                ..."
+Simplifying non-contiguous data transfer with MPI for Python,"The Journal of Supercomputing (IF 2.557 )
+
+                
+
+                Pub Date : 2023-06-07 ,DOI:10.1007/s11227-023-05398-7","Klaus Nölp, Lena Oden","Python is becoming increasingly popular in scientific computing. The package MPI for Python (mpi4py) allows writing efficient parallel programs that scale across multiple nodes. However, it does not support non-contiguous data via slices, which is a well-known feature of NumPy. In this work, we therefore evaluate several methods to support the direct transfer of non-contiguous arrays in mpi4py. This
+
+                ..."
+JBrowse Jupyter: A Python interface to JBrowse 2,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-01-17 ,DOI:10.1093/bioinformatics/btad032","Teresa De Jesus Martinez, Elliot A Hershberg, Emma Guo, Garrett J Stevens, Colin Diesh, Peter Xie, Caroline Bridge, Scott Cain, Robin Haw, Robert M Buels, Lincoln D Stein, Ian H Holmes","enable a more rapid iterative cycle of development, analysis and visualization. Results We have developed a package that provides a python interface to JBrowse 2’s suite of embeddable components, including the primary Linear Genome View. The package enables users to quickly set up, launch and customize JBrowse views from Jupyter notebooks. In addition, users can share their data via Google’s Colab notebooks
+
+                ..."
+"Home range ecology of Indian rock pythons ( Python molurus) in Sathyamangalam and Mudumalai Tiger Reserves, Tamil Nadu, Southern India.","Scientific Reports (IF 4.996 )
+
+                
+
+                Pub Date : 2023-06-16 ,DOI:10.1038/s41598-023-36974-9","C S Vishnu,Benjamin Michael Marshall,Chinnasamy Ramesh,Vedagiri Thirumurugan,Gautam Talukdar,Abhijit Das","The Indian rock pythons ( Python molurus) are classified as a near-threatened snake species by the International Union for the Conservation of Nature and Natural Resources (IUCN); they are native to the Indian subcontinent and have experienced population declines caused primarily by poaching and habitat loss. We hand-captured the 14 rock pythons from villages, agricultural lands, and core forests to
+
+                ..."
+Python package for causal discovery based on LiNGAM,"Journal of Machine Learning Research (IF 5.177 )
+
+                
+
+                Pub Date : 2023-01-01 ,DOI:","Takashi Ikeuchi, Mayumi Ide, Yan Zeng, Takashi Nicholas Maeda, Shohei Shimizu","Causal discovery is a methodology for learning causal graphs from data, and LiNGAM is a well-known model for causal discovery. This paper describes an open-source Python package for causal discovery based on LiNGAM. The package implements various LiNGAM methods under different settings like time series cases, multiple-group cases, mixed data cases, and hidden common cause cases, in addition to evaluation
+
+                ..."
+AccuCalc: A Python Package for Accuracy Calculation in GWAS.,"Genes (IF 4.141 )
+
+                
+
+                Pub Date : 2023-01-01 ,DOI:10.3390/genes14010123","Jana Biová,Nicholas Dietz,Yen On Chan,Trupti Joshi,Kristin Bilyeu,Mária Škrabišová","calculation. We designed AccuCalc as a Python package for GWAS data analysis for any user-defined species-independent variant calling format (vcf) or HapMap format (hmp) as input data. AccuCalc saves analysis outputs in user-friendly tab-delimited formats and also offers visualization of the GWAS results as Manhattan plots accentuated by accuracy. Under the hood of Python , AccuCalc is publicly available and
+
+                ..."
+CommonNNClustering─A Python Package for Generic Common-Nearest-Neighbor Clustering,"Journal of Chemical Information and Modeling (IF 6.162 )
+
+                
+
+                Pub Date : 2023-02-06 ,DOI:10.1021/acs.jcim.2c01493","Jan-Oliver Kapp-Joswig, Bettina G. Keller","identify relevant, low-energetic molecular conformations. As such, they can provide a convenient basis for the construction of kinetic (core-set) Markov-state models. Here we present the open-source Python project CommonNNClustering, which provides an easy-to-use and efficient reimplementation of the common-nearest-neighbor (CommonNN) method. The package provides functionalities for hierarchical clustering
+
+                ..."
+espm: A Python library for the simulation of STEM-EDXS datasets,"Ultramicroscopy (IF 2.994 )
+
+                
+
+                Pub Date : 2023-03-23 ,DOI:10.1016/j.ultramic.2023.113719","Adrien Teurtrie, Nathanaël Perraudin, Thomas Holvoet, Hui Chen, Duncan T.L. Alexander, Guillaume Obozinski, Cécile Hébert","We present two open-source Python packages: “electron spectro-microscopy” (espm) and “electron microscopy tables” (emtables). The espm software enables the simulation of scanning transmission electron microscopy energy-dispersive X-ray spectroscopy datacubes, based on user-defined chemical compositions and spatial abundance maps of constituent phases. The simulation process uses X-ray emission cross-sections
+
+                ..."
+FTflow: An Open-Source Python GUI for FT-IM-MS Experiments,"Journal of the American Society for Mass Spectrometry (IF 3.262 )
+
+                
+
+                Pub Date : 2023-02-28 ,DOI:10.1021/jasms.2c00352","Elvin R. Cabrera, Arthur Laganowsky, Brian H. Clowers","populations. Furthermore, input fields for experimental conditions are clearly laid out for users and ease-of-use. With flexibility in mind, the processing scripts and GUI interface are written entirely in Python and allows users the option to modify source code to fit their specific needs. While the intention for this tool is to be a starting point for exploratory analysis of FT-IM-MS data, it has the capability
+
+                ..."
+GDDS: Python software for GNSS data download,"GPS Solutions (IF 4.517 )
+
+                
+
+                Pub Date : 2023-01-30 ,DOI:10.1007/s10291-023-01400-0","Liguo Lu, Qiao Liang, Weijian Hu, Tangting Wu","cumbersome, repetitive, and time-consuming, and it is challenging to meet the demands for rapid acquisition of multi-source data products. Therefore, we have developed a GNSS data download software with Python , which provides an interactive interface for the Windows or Linux operating system to realize the efficient and stable download for a large amount of GNSS data. The software includes five main function
+
+                ..."
+An empirical study of automated unit test generation for Python,"Empirical Software Engineering (IF 3.762 )
+
+                
+
+                Pub Date : 2023-01-31 ,DOI:10.1007/s10664-022-10248-w","Stephan Lukasczyk, Florian Kroiß, Gordon Fraser","for dynamically typed programming languages such as Python , however, is substantially more difficult due to the dynamic nature of these languages as well as the lack of type information. Our Pynguin framework provides automated unit test generation for Python . In this paper, we extend our previous work on Pynguin to support more aspects of the Python language, and by studying a larger variety of well-established
+
+                ..."
+cegpy: Modelling with chain event graphs in Python,"Knowledge-Based Systems (IF 8.139 )
+
+                
+
+                Pub Date : 2023-05-11 ,DOI:10.1016/j.knosys.2023.110615","Gareth Walley, Aditi Shenvi, Peter Strong, Katarzyna Kobalczyk","exists no software that allows a user to leverage the theoretical developments of the CEG model family in modelling processes with structural asymmetries. In this paper, we present cegpy: the first Python implementation of CEGs and the first across all languages to support structurally asymmetric processes. cegpy contains an implementation of Bayesian learning and probability propagation algorithms
+
+                ..."
+"A nosocomial Pseudomonas aeruginosa ST3495 isolated from a wild Burmese python ( Python bivittatus) with suppurative pneumonia and bacteremia in Hainan, China","Brazilian Journal of Microbiology (IF 2.214 )
+
+                
+
+                Pub Date : 2023-06-21 ,DOI:10.1007/s42770-023-01038-7","Roushan Li, Bo Ling, Jifeng Zeng, Xin Wang, Nuo Yang, Lixia Fan, Guiying Guo, Xuesong Li, Fei Yan, Jiping Zheng","Pseudomonas aeruginosa is a common infectious agent associated with respiratory diseases in boas and pythons , however, the histopathology, resistance and virulence are yet described for this species. In this study, we investigated a dying Burmese python rescued from tropical rainforest in Hainan. Clinical signs were open-mouthed breathing, abnormal shedding and anorexia. Abundant yellow mucopurulent
+
+                ..."
+Dipwmsearch: a python package for searching di-PWM motifs,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-04-03 ,DOI:10.1093/bioinformatics/btad141","Marie Mille, Julie Ripoll, Bastien Cazaux, Eric Rivals","the HOCOMOCO database provides di-PWM motifs derived from experimental data. Currently, two programs, SPRy-SARUS and MOODS, can search for occurrences of di-PWMs in sequences. Results We propose a Python package called dipwmsearch, which provides an original and efficient algorithm for this task (it first enumerates matching words for the di-PWM, and then search these all at once in the sequence, even
+
+                ..."
+Pygenomics: manipulating genomic intervals and data files in Python,"Bioinformatics (IF 6.931 )
+
+                
+
+                Pub Date : 2023-05-25 ,DOI:10.1093/bioinformatics/btad346","Gaik Tamazian, Nikolay Cherkasov, Alexander Kanapin, Anastasia Samsonova","These features facilitate seamless integration of pygenomics routines into scripts and pipelines. The package is implemented in pure Python using its standard library only and contains the property-based testing framework. Comparison of pygenomics with other Python bioinformatic packages with relation to features and performance is presented. The performance comparison covers operations with genomic
+
+                ..."
+PyExaFMM: An Exercise in Designing High-Performance Software With Python and Numba,"Computing in Science & Engineering (IF 2.152 )
+
+                
+
+                Pub Date : 2023-05-12 ,DOI:10.1109/mcse.2023.3258288","Srinath Kailasa, Tingyu Wang, Lorena A. Barba, Timo Betcke","Numba is a game-changing compiler for high-performance computing with Python . It produces machine code that runs outside of the single-threaded Python interpreter, and that fully utilizes the resources of modern CPUs. This means support for parallel multithreading and auto-vectorization if available, as with compiled languages such as C++ or Fortran. In this article, we document our experience developing
+
+                ..."
+Shennong: A Python toolbox for audio speech features extraction,"Behavior Research Methods (IF 5.953 )
+
+                
+
+                Pub Date : 2023-02-07 ,DOI:10.3758/s13428-022-02029-6","Mathieu Bernard, Maxime Poli, Julien Karadayi, Emmanuel Dupoux","an open source, reliable and extensible framework built on top of the popular Kaldi speech processing library. The Python implementation makes it easy to use by non-technical users and integrates with third-party speech modeling and machine learning tools from the Python ecosystem. This paper describes the Shennong software architecture, its core components, and implemented algorithms. Then, three applications
+
+                ..."
+Blindspots in Python and Java APIs Result in Vulnerable Code,"ACM Transactions on Software Engineering and Methodology (IF 3.685 )
+
+                
+
+                Pub Date : 2023-04-26 ,DOI:https://dl.acm.org/doi/10.1145/3571850","Yuriy Brun, Tian Lin, Jessie Elise Somerville, Elisha M. Myers, Natalie Ebner","replication applies to Python and involves 129 new developers and 22 new APIs. We find that using APIs with blindspots statistically significantly reduces the developers’ ability to correctly reason about the APIs in both languages, but that the effect is more pronounced for Python . Interestingly, for Java, the effect increased with complexity of the code relying on the API, whereas for Python , the opposite
+
+                ..."
+Biofuels and Nanocatalysts: Python Boosting Visualization of Similarities.,"Materials (IF 3.748 )
+
+                
+
+                Pub Date : 2023-01-30 ,DOI:10.3390/ma16031175","Fernando Gomes Souza,Kaushik Pal,Jeffrey Dankwa Ampah,Maria Clara Dantas,Aruzza Araújo,Fabíola Maranhão,Priscila Domingues","submitted to automatic analysis via the Visualization of Similarities Method implemented in VOSviewer 1.6.18 software. Then, the data extracted from the VOSviewer were processed by software written in Python , which allowed the use of the network data generated by the Visualization of Similarities Method. Thus, it was possible to establish the relationships for the pair between the nodes of all clusters
+
+                ..."

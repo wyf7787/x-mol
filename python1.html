@@ -1,0 +1,4059 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript">
+        var currentJs = "paper/advancedSearchPaperResult";
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
+
+
+
+
+<title>
+    X-MOL学术平台
+</title>
+
+<meta name="keywords" content="X-MOL,XMOL,化学,生命科学,生物,资讯, 期刊, 论文, 科研, 进展, 课题组, 导师, 出国, 化学软件, 化学数据库, ACS, JACS, Angew, Nature, Science, Reviews, Chemistry, Chemical, Nano"/>
+        
+
+<meta name="description" content="X-MOL学术平台，顶级期刊论文图文内容每日更新，海内外课题组信息，行业新闻文摘，化学类网址导航，化学软件和数据库导航，及更多其他内容"/>
+        
+
+<!-- Bootstrap -->
+
+
+
+<link href="https://static.x-mol.com/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://static.x-mol.com/css/font-awesome.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/orbit.css">
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/flat-ui.css">
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/cs-skin-elastic.css">
+
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/font-awesome-ie7.min.css"/>
+<![endif]-->
+
+
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/ace.min.css">
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/base.css?date=2023020911">
+
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://static.x-mol.com/jcss/ace-ie.min.css"/>
+<![endif]-->
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    var web_is = 1;
+    var web_version = '2023020911';
+
+    //TODO
+    var initStack = {loaded: false};
+    window.initStack = initStack;
+    window.contextPath = '';
+    window.staticSitePath  = 'https://static.x-mol.com';
+    var imsUrl = '';
+
+    var require = {
+        urlArgs: 'v=' + web_version
+    };
+</script>
+
+
+<script src="https://static.x-mol.com/js/require.js"
+        data-main="https://static.x-mol.com/js/built"></script>
+<link rel="shortcut icon" href="https://static.x-mol.com/css/images/favicon.ico"/>
+
+
+
+
+</head>
+<body>
+<div id="wrapper">
+    
+
+
+
+
+
+
+
+
+
+<header class="top-bar">
+    <div class="header-first-nav">
+        <span class="header-top-nav it-small-white">
+            <a href="/goEnSite">EN</a>
+        </span>
+        <div class="navbar-header pull-right">
+            <ul class="nav ace-nav">
+
+                
+
+
+                
+                    <li class="header-top-nav">
+                        <a class="shortcut it-small-white" href="/register/index">
+                            注册
+                        </a>
+                    </li>
+                    <li class="header-top-nav">
+                        <a class="shortcut it-small-white" href="/login">
+                            登录
+                        </a>
+                    </li>
+                
+
+            </ul>
+        </div>
+
+        <div class="header-top-nav it-small-white pull-right">
+            <a href="/">
+                首页
+            </a>
+
+            <a href="/news">
+                资讯
+            </a>
+
+            <a href="/paper">
+                期刊
+            </a>
+
+            <a href="/university/index">
+                导师
+            </a>
+
+            <a href="/ask">
+                问答
+            </a>
+
+            <a href="/job">
+                求职
+            </a>
+
+            <a href="/8Paper/list">
+                发Paper
+            </a>
+
+            <a href="/zd">
+                文献直达
+            </a>
+
+            <a href="/paper/search">
+                高级搜索
+            </a>
+
+            <a target="_blank" href="/paper/list">
+                期刊列表
+            </a>
+
+
+
+
+
+        </div><!-- /.navbar-header -->
+    </div>
+</header>
+
+
+    
+
+    <div class="main-admin" id="main-content">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container" id="mianBody">
+            
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="header-news navbg">
+    <div class="col1020">
+        <div id="navul" class="newsul">
+            <div class="row">
+                <div class="col-md-5 col-xs-12">
+                    <span class="">
+                        <a href="/paper/search">
+                            <img src="https://static.x-mol.com/jcss/images/xmol-logo-search-q.jpg">
+                        </a>
+                    </span>
+                </div>
+                <div class="col-md-7 col-xs-12">
+                    <span class="newssrbox" style="margin-top:28px;width:640px;">
+
+                         
+
+
+
+                        
+                        <form id="searchByOptionFilterYear">
+                            <input name="searchField" id="searchField" value="1"
+                                   type="hidden"/>
+                            <input name="option" value="python" type="hidden"/>
+                            <input name="searchSort" value="" type="hidden"/>
+                            <input name="onlyOA" value="" type="hidden"/>
+                            <input name="year" id="year" value="2023" type="hidden"/>
+                            <input name="matchPhrase" id="matchPhrase" value="true"
+                                   type="hidden"/>
+
+                             <input name="impactFactorStart" id="impactFactorStart_filter"
+                                    value=""
+                                    type="hidden"/>
+
+                             <input name="impactFactorEnd" id="impactFactorEnd_filter"
+                                    value=""
+                                    type="hidden"/>
+
+                            
+                            
+
+                        </form>
+
+                        <form class="career-form" id="journalSearchForm"
+                              method="get">
+
+
+
+                             <select class="form-control input-career-search"
+                                     name="selectSearchType" id="selectSearchType">
+                                <option value="0" selected>
+                                    全部期刊
+                                </option>
+                                
+                            </select>
+                            <span class="newsKeyWord" style="display: inline;">
+                                <input id="optionInp" name="option" value="python"
+                                       class="inpage-typearea" type="text" style="padding-right:100px;"
+                                       placeholder="请输入英文关键字检索论文"/>
+                                 <span id="closeOptionInp"
+                                       style="position: absolute;left: 455px;line-height: 32px;top:0;"
+                                       onclick="xmol.toggleInput()">
+                                    <img style="cursor: pointer;" title="清空"
+                                         src="https://static.x-mol.com/css/images/icon-close.png"/>
+                                </span>
+                            </span>
+                            <span class="inpage-searchsub" style="left: 480px; line-height: 34px;">
+                                <button class="inpage-subbtn" onclick="xmol.simpleSearch()">
+                                    搜索
+                                </button>
+                            </span>
+
+                              <span class="joural-inpage-searchsub" style="left: 550px;
+                                    line-height: 34px;width: 80px;text-align: center">
+                                <a class="joural-inpage-sub-btn" href="/paper/search">
+                                    高级搜索
+                                </a>
+                            </span>
+
+                             
+                        </form>
+                        <div class="clearfix"></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input id="needLogin" type="hidden" value=""/>
+
+<div class="main-admin" id="main-content">
+    <div class="container" id="mianBody">
+        <div class="col960">
+            <div class="positionbox" style="margin-bottom:0;">
+                <span>当前位置： <a href="/paper">期刊论文</a> › <a
+                        href="/paper/search">文献检索
+                </a> › 搜索结果</span>
+            </div>
+            <div class="magazine-senior-search-content">
+                <div class="magazine-senior-search-left">
+                    <div class="magazine-senior-search-left-info">
+
+                        <ul>
+                            
+                                <li style="cursor:default">
+                                    <span class="it-blue it16 magazine-another-item-title-word"
+                                          title="python" style="width: 600px;">
+                                        
+                                        搜索"python"
+                                        的结果
+                                    </span>
+
+
+                                    <span class="it14 pull-right it-blue"
+                                          style="font-weight: normal;margin-right:20px;">
+                                     <input type="checkbox" checked
+                                            style="vertical-align: bottom;margin-bottom: 12px;"
+                                            onchange="xmol.searchByMatchPhrase(false)">
+                                        <a href="javascript:void (0)"
+                                           onclick="xmol.searchByMatchPhrase(false)">
+                                            仅显示精确匹配的结果
+                                        </a>
+                                    </span>
+
+
+                                </li>
+
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                    <div class="magazine-senior-search-left-key">
+                        <label>
+                            <input name="checkall" type="checkbox" onchange="xmol.selectAll(this.checked)">&nbsp;&nbsp;&nbsp;&nbsp;
+                        </label>
+                        <a class="btn btn-white btn-xxsm space-right-m5"
+                           style="margin-bottom: 6px;"
+                           onclick="xmol.dialogChooseFormat()" href="javascript:void(0)">
+                            导出
+                        </a>
+                        <a class="btn btn-white btn-xxsm space-right-m10"
+                           style="margin-bottom: 6px;"
+                           onclick="paper_favorite.favoriteBatch()" href="javascript:void(0)">
+                            收藏
+                        </a>
+                        
+
+
+
+
+
+    
+
+<span>
+    <strong>
+        样式：
+    </strong>
+</span>
+<span>
+    <strong>
+        <a href="javascript:void(0)" title="单列" onclick="javascript:xmol.changeView('list')"
+           class="glyphicon glyphicon-list itsmorange"></a>
+    </strong>&nbsp;
+</span>
+<span>
+    <strong>
+        <a href="javascript:void(0)" title="双列" onclick="javascript:xmol.changeView('grid')"
+           class="glyphicon glyphicon-th-large "></a>
+    </strong>&nbsp;
+</span>
+
+
+                        <span> &nbsp;&nbsp;
+                            <strong style="color: #ff7010;">排序：</strong>
+                            <label onchange="xmol.changeSearchSort('')"
+                                   class="space-right-m20 it-blue ">
+                                <input name="searchSort" type="radio" checked/>&nbsp;匹配度
+                            </label><label onchange="xmol.changeSearchSort('publishDate')"
+                                   class="">
+                                <input name="searchSort" type="radio"  />&nbsp;Pub Date
+                            </label>
+                        </span>
+                        <span> &nbsp;&nbsp;
+                            <label onchange="xmol.changeOa(event)"
+                                   class="">
+                                <input name="onlyOA" type="checkbox"  />&nbsp;OA
+                            </label>
+                        </span>
+                        <span class="space-right-m20" style="padding-left: 15px;">
+                            
+                                
+                                <a class="btn btn-white btn-xxsm" style="margin-bottom: 6px;"
+                                   onclick="xmol.changeReadMode('zh')" href="javascript:void(0)">
+                                    开启中文模式
+                                </a>
+                                
+                                
+                            
+                        </span>
+                        <div class="magazine-senior-search-left-key-info">
+                        <span>共有<strong class="it-red it16">
+                            2706
+                        </strong>个结果 </span>&nbsp;
+                        </div>
+                    </div>
+                    <div class="magazine-senior-search-results-list ">
+                        <ul>
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1663694318880931840" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1663694318880931840" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1663694318880931840"
+           onclick="paper_favorite.loadThesisGroup('1663694318880931840')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1663694318880931840"
+           data-paper-id="1663694318880931840" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1663694318880931840')"
+           href="/paper/1663694318880931840?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                pyTDGL: Time-dependent Ginzburg-Landau in <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1663694318880931840')"
+           href="/paper/1663694318880931840?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Computer Physics Communications</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">4.717</span>)
+                
+                Pub Date : 2023-05-29 ,DOI:10.1016/j.cpc.2023.108799
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1663694318880931840')"
+           href="/paper/1663694318880931840?adv">
+            <div class="div-text-line-one it-new-gary">
+                Logan Bishop-Van Horn
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1663694318880931840')"
+           href="/paper/1663694318880931840?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                17632/t6z7szt9bj.1 Developer's repository link: http://www.github.com/loganbvh/py-tdgl Code Ocean capsule: https://codeocean.com/capsule/2460583 Licensing provisions: MIT License Programming language: <span style='color:#ff0000'>Python</span> Nature of problem: pyTDGL solves a generalized time-dependent Ginzburg-Landau (TDGL) equation for two-dimensional superconductors of arbitrary geometry, enabling simulations of vortex and phase slip
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1654150576082792448" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1654150576082792448" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1654150576082792448"
+           onclick="paper_favorite.loadThesisGroup('1654150576082792448')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1654150576082792448"
+           data-paper-id="1654150576082792448" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1654150576082792448')"
+           href="/paper/1654150576082792448?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                pyGOMoDo: GPCRs modeling and docking with <span style='color:#ff0000'>python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1654150576082792448')"
+           href="/paper/1654150576082792448?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Bioinformatics</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.931</span>)
+                
+                Pub Date : 2023-05-03 ,DOI:10.1093/bioinformatics/btad294
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1654150576082792448')"
+           href="/paper/1654150576082792448?adv">
+            <div class="div-text-line-one it-new-gary">
+                Rui P Ribeiro, A Giorgetti
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1654150576082792448')"
+           href="/paper/1654150576082792448?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                Motivation We present pyGOMoDo, a <span style='color:#ff0000'>Python</span> library to perform homology modeling and docking, specifically designed for human GPCRs. pyGOMoDo is a <span style='color:#ff0000'>python</span> wrap-up of the updated functionalities of GOMoDo web server (https://gomodo.grs.kfa-juelich.de). It was developed having in mind its usage through Jupyter notebooks, where users can create their own protocols of modeling and docking of GPCRs. In this
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1654170838408900608" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1654170838408900608" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1654170838408900608"
+           onclick="paper_favorite.loadThesisGroup('1654170838408900608')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1654170838408900608"
+           data-paper-id="1654170838408900608" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1654170838408900608')"
+           href="/paper/1654170838408900608?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                PyCIL: a <span style='color:#ff0000'>Python</span> toolbox for class-incremental learning
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1654170838408900608')"
+           href="/paper/1654170838408900608?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Science China Information Sciences</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">7.275</span>)
+                
+                Pub Date : 2023-04-19 ,DOI:10.1007/s11432-022-3600-y
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1654170838408900608')"
+           href="/paper/1654170838408900608?adv">
+            <div class="div-text-line-one it-new-gary">
+                Da-Wei Zhou, Fu-Yun Wang, Han-Jia Ye, De-Chuan Zhan
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1654170838408900608')"
+           href="/paper/1654170838408900608?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                We have presented PyCIL, a classincremental learning toolbox written in <span style='color:#ff0000'>Python</span>. It contains implementations of a number of founding studies of CIL, but also provides current state-of-the-art algorithms that can be used to conduct novel fundamental research. Code consistency makes it an easy tool for research purposes, teaching, and industrial applications.
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1655989667182759936" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1655989667182759936" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" border-bottom: none">
+        <a href="javascript:void (0)" id="favoriteBtn1655989667182759936"
+           onclick="paper_favorite.loadThesisGroup('1655989667182759936')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1655989667182759936"
+           data-paper-id="1655989667182759936" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1655989667182759936')"
+           href="/paper/1655989667182759936?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Egg-smol <span style='color:#ff0000'>Python</span>: A <span style='color:#ff0000'>Pythonic</span> Library for E-graphs
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1655989667182759936')"
+           href="/paper/1655989667182759936?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">arXiv - CS - Programming Languages</em>
+                
+                Pub Date : 2023-05-07 ,DOI:arxiv-2305.04311
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1655989667182759936')"
+           href="/paper/1655989667182759936?adv">
+            <div class="div-text-line-one it-new-gary">
+                Saul Shanabrook
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1655989667182759936')"
+           href="/paper/1655989667182759936?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                techniques such as equality saturation. This paper introduces <span style='color:#ff0000'>Python</span> bindings for the experimental egg-smol library, which aims to bring the benefits of e-graphs to the <span style='color:#ff0000'>Python</span> ecosystem. The bindings offer a high-level, <span style='color:#ff0000'>Pythonic</span> API providing an accessible and familiar interface for <span style='color:#ff0000'>Python</span> users. By integrating e-graph techniques with <span style='color:#ff0000'>Python</span>, we hope to enable collaboration and innovation across various
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                                    <a href="/ref/paper/375"
+                                       target="_blank">
+                                        <div class="magazine-model-content-poster pull-left"
+                                             style="margin-bottom: 15px;margin-top:0px;text-indent: 10px;">
+                                            <span>广告：喜“文”乐“荐”|邀请好友使用Taylor & Francis Editing Services编辑润色服务，共享专属优惠！推荐人数无限制！</span>
+                                            <span class="pull-right space-right-m10"><i
+                                                    class="fa fa-angle-right fa-lg"></i></span>
+                                        </div>
+                                    </a>
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1644017599587823616" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1644017599587823616" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1644017599587823616"
+           onclick="paper_favorite.loadThesisGroup('1644017599587823616')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1644017599587823616"
+           data-paper-id="1644017599587823616" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1644017599587823616')"
+           href="/paper/1644017599587823616?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                PyXLA: <span style='color:#ff0000'>Python</span> x-ray-tracing for Lobster-Eye application
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1644017599587823616')"
+           href="/paper/1644017599587823616?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Journal of Optics</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">2.077</span>)
+                
+                Pub Date : 2023-03-31 ,DOI:10.1088/2040-8986/acc2cc
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1644017599587823616')"
+           href="/paper/1644017599587823616?adv">
+            <div class="div-text-line-one it-new-gary">
+                Ondrej Nentvich, Martin Urban, Rene Hudec
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1644017599587823616')"
+           href="/paper/1644017599587823616?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                which raised interest in recent years, and will be considered for simulations and description and is perspective for space missions. This paper introduces a newly developed simulator, PyXLA, written in <span style='color:#ff0000'>Python</span> and which evaluates and simulates specific types of x-ray reflective optics, particularly LE optics. The software utilises fundamental ray-tracing principles and, in combination with design, can determine
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1671995559335673856" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1671995559335673856" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1671995559335673856"
+           onclick="paper_favorite.loadThesisGroup('1671995559335673856')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1671995559335673856"
+           data-paper-id="1671995559335673856" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1671995559335673856')"
+           href="/paper/1671995559335673856?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                A <span style='color:#ff0000'>Python</span> script for discontinuity layout optimization
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1671995559335673856')"
+           href="/paper/1671995559335673856?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Structural and Multidisciplinary Optimization</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">4.279</span>)
+                
+                Pub Date : 2023-06-21 ,DOI:10.1007/s00158-023-03583-z
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1671995559335673856')"
+           href="/paper/1671995559335673856?adv">
+            <div class="div-text-line-one it-new-gary">
+                Linwei He, Mattia Schiantella, Matthew Gilbert, Colin C. Smith
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1671995559335673856')"
+           href="/paper/1671995559335673856?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                 Notably the basic DLO method uses the same underlying mathematical formulation as ‘ground structure’-based truss layout (or ‘topology’) optimization and is demonstrated in this contribution via a <span style='color:#ff0000'>Python</span> script capable of solving plane strain limit analysis problems. Extensions to the basic method are presented to allow treatment of larger-scale problems incorporating cohesive-frictional materials
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3985213 src='https://xpic.x-mol.com/20230623%2F10.1007_s00158-023-03583-z.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1637118441853349888" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1637118441853349888" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1637118441853349888"
+           onclick="paper_favorite.loadThesisGroup('1637118441853349888')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1637118441853349888"
+           data-paper-id="1637118441853349888" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1637118441853349888')"
+           href="/paper/1637118441853349888?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                EGTtools: Evolutionary game dynamics in <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1637118441853349888')"
+           href="/paper/1637118441853349888?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">iScience</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.107</span>)
+                
+                Pub Date : 2023-03-17 ,DOI:10.1016/j.isci.2023.106419
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1637118441853349888')"
+           href="/paper/1637118441853349888?adv">
+            <div class="div-text-line-one it-new-gary">
+                Elias Fernández Domingos, Francisco C. Santos, Tom Lenaerts
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1637118441853349888')"
+           href="/paper/1637118441853349888?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                sciences, in many decades. Nevertheless, there has been no open source library that provided easy, and efficient, access to these methods and models. Here, we introduce EGTtools, an efficient hybrid C++/<span style='color:#ff0000'>Python</span> library which provides fast implementations of both analytical and numerical EGT methods. EGTtools is able to analytically evaluate a system based on the replicator dynamics. It is also able to evaluate
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3799633 src='https://xpic.x-mol.com/20230413%2F10.1016_j.isci.2023.106419.jpg' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1628643163770011648" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1628643163770011648" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1628643163770011648"
+           onclick="paper_favorite.loadThesisGroup('1628643163770011648')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1628643163770011648"
+           data-paper-id="1628643163770011648" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1628643163770011648')"
+           href="/paper/1628643163770011648?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Pattern-based circular reference detection in <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1628643163770011648')"
+           href="/paper/1628643163770011648?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Science of Computer Programming</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">1.039</span>)
+                
+                Pub Date : 2023-02-23 ,DOI:10.1016/j.scico.2023.102932
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1628643163770011648')"
+           href="/paper/1628643163770011648?adv">
+            <div class="div-text-line-one it-new-gary">
+                Jie Chen, Tao Jiang, Dongjin Yu, Haiyang Hu
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1628643163770011648')"
+           href="/paper/1628643163770011648?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                dataset collected from 671 open-source projects at runtime. With these patterns in mind, developers can be aware of where potential circular references might be coming from, leading to more robust <span style='color:#ff0000'>Python</span> codes and ultimately lightening the garbage collection workload, and also potentially altering their coding practices. Then, we design CRef, a pattern-based approach for detecting circular references
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1622651751731642368" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1622651751731642368" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1622651751731642368"
+           onclick="paper_favorite.loadThesisGroup('1622651751731642368')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1622651751731642368"
+           data-paper-id="1622651751731642368" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1622651751731642368')"
+           href="/paper/1622651751731642368?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                PyVisualFields: A <span style='color:#ff0000'>Python</span> Package for Visual Field Analysis
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1622651751731642368')"
+           href="/paper/1622651751731642368?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Translational Vision Science & Technology</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.048</span>)
+                
+                Pub Date : 2023-02-01 ,DOI:10.1167/tvst.12.2.6
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1622651751731642368')"
+           href="/paper/1622651751731642368?adv">
+            <div class="div-text-line-one it-new-gary">
+                Mohammad Eslami, Saber Kazeminasab, Vishal Sharma, Yangjiani Li, Mojtaba Fazli, Mengyu Wang, Nazlee Zebardast, Tobias Elze
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1622651751731642368')"
+           href="/paper/1622651751731642368?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                to define the overlaps and distinct functions. Then, we defined and translated this functionality into <span style='color:#ff0000'>Python</span> with the help of the wrapper library rpy2. Besides maintaining, the subsequent versions’ milestones are established, and the third version will be R-independent. Results: The developed <span style='color:#ff0000'>Python</span> package is available as open-source software via the GitHub repository and is ready to be installed from
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1619828778545004544" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1619828778545004544" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1619828778545004544"
+           onclick="paper_favorite.loadThesisGroup('1619828778545004544')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1619828778545004544"
+           data-paper-id="1619828778545004544" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1619828778545004544')"
+           href="/paper/1619828778545004544?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Teaching Nash equilibrium with <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1619828778545004544')"
+           href="/paper/1619828778545004544?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">The Journal of Economic Education</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">1.237</span>)
+                
+                Pub Date : 2023-01-29 ,DOI:10.1080/00220485.2023.2168813
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1619828778545004544')"
+           href="/paper/1619828778545004544?adv">
+            <div class="div-text-line-one it-new-gary">
+                Allison Oldham Luedtke
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1619828778545004544')"
+           href="/paper/1619828778545004544?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                Abstract The author describes an assignment in an undergraduate game theory course in which students work together in class to develop a computer algorithm to identify Nash equilibria. This assignment builds basic computer science skills while applying game theory knowledge to real-world situations. Students work as a team to delineate the steps and write a program to identify all of the pure-strategy
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1664878747670265856" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1664878747670265856" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1664878747670265856"
+           onclick="paper_favorite.loadThesisGroup('1664878747670265856')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1664878747670265856"
+           data-paper-id="1664878747670265856" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1664878747670265856')"
+           href="/paper/1664878747670265856?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                pyCHARMM: Embedding CHARMM Functionality in a <span style='color:#ff0000'>Python</span> Framework
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1664878747670265856')"
+           href="/paper/1664878747670265856?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Journal of Chemical Theory and Computation</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.578</span>)
+                
+                Pub Date : 2023-06-02 ,DOI:10.1021/acs.jctc.3c00364
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1664878747670265856')"
+           href="/paper/1664878747670265856?adv">
+            <div class="div-text-line-one it-new-gary">
+                Joshua Buckner, Xiaorong Liu, Arghya Chakravorty, Yujin Wu, Luis F. Cervantes, Thanh T. Lai, Charles L. Brooks III
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1664878747670265856')"
+           href="/paper/1664878747670265856?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                variables, and force field related parameters. The ability to augment CHARMM forces and energies with energy terms or methods derived from machine learning or other sources, written in <span style='color:#ff0000'>Python</span>, CUDA, or OpenCL and expressed as <span style='color:#ff0000'>Python</span> callable routines is introduced together with analogous functions callable during dynamics calculations. Integration of Python-based graphical engines for visualization of simulation
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3938169 src='https://xpic.x-mol.com/20230603%2F10.1021_acs.jctc.3c00364.jpg' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1640049207812698112" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1640049207812698112" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1640049207812698112"
+           onclick="paper_favorite.loadThesisGroup('1640049207812698112')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1640049207812698112"
+           data-paper-id="1640049207812698112" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1640049207812698112')"
+           href="/paper/1640049207812698112?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Empirical analysis of security vulnerabilities in <span style='color:#ff0000'>Python</span> packages
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1640049207812698112')"
+           href="/paper/1640049207812698112?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Empirical Software Engineering</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.762</span>)
+                
+                Pub Date : 2023-03-25 ,DOI:10.1007/s10664-022-10278-4
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1640049207812698112')"
+           href="/paper/1640049207812698112?adv">
+            <div class="div-text-line-one it-new-gary">
+                Mahmoud Alfadel, Diego Elias Costa, Emad Shihab
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1640049207812698112')"
+           href="/paper/1640049207812698112?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                reports affecting 698 <span style='color:#ff0000'>Python</span> packages in the <span style='color:#ff0000'>Python</span> ecosystem (PyPi). In particular, we study the propagation and life span of security vulnerabilities, accounting for how long they take to be discovered and fixed. In addition, vulnerabilities in packages may affect software projects that depend on them (dependent projects), making them vulnerable too. We study a set of 2,224 GitHub <span style='color:#ff0000'>Python</span> projects, to better
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3751918 src='https://xpic.x-mol.com/20230327%2F10.1007_s10664-022-10278-4.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1666489359470936064" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1666489359470936064" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1666489359470936064"
+           onclick="paper_favorite.loadThesisGroup('1666489359470936064')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1666489359470936064"
+           data-paper-id="1666489359470936064" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1666489359470936064')"
+           href="/paper/1666489359470936064?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Simplifying non-contiguous data transfer with MPI for <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1666489359470936064')"
+           href="/paper/1666489359470936064?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">The Journal of Supercomputing</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">2.557</span>)
+                
+                Pub Date : 2023-06-07 ,DOI:10.1007/s11227-023-05398-7
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1666489359470936064')"
+           href="/paper/1666489359470936064?adv">
+            <div class="div-text-line-one it-new-gary">
+                Klaus Nölp, Lena Oden
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1666489359470936064')"
+           href="/paper/1666489359470936064?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                <span style='color:#ff0000'>Python</span> is becoming increasingly popular in scientific computing. The package MPI for <span style='color:#ff0000'>Python</span> (mpi4py) allows writing efficient parallel programs that scale across multiple nodes. However, it does not support non-contiguous data via slices, which is a well-known feature of NumPy. In this work, we therefore evaluate several methods to support the direct transfer of non-contiguous arrays in mpi4py. This
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3949752 src='https://xpic.x-mol.com/20230608%2F10.1007_s11227-023-05398-7.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1616113419396661248" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1616113419396661248" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1616113419396661248"
+           onclick="paper_favorite.loadThesisGroup('1616113419396661248')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1616113419396661248"
+           data-paper-id="1616113419396661248" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616113419396661248')"
+           href="/paper/1616113419396661248?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                JBrowse Jupyter: A <span style='color:#ff0000'>Python</span> interface to JBrowse 2
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616113419396661248')"
+           href="/paper/1616113419396661248?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Bioinformatics</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.931</span>)
+                
+                Pub Date : 2023-01-17 ,DOI:10.1093/bioinformatics/btad032
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616113419396661248')"
+           href="/paper/1616113419396661248?adv">
+            <div class="div-text-line-one it-new-gary">
+                Teresa De Jesus Martinez, Elliot A Hershberg, Emma Guo, Garrett J Stevens, Colin Diesh, Peter Xie, Caroline Bridge, Scott Cain, Robin Haw, Robert M Buels, Lincoln D Stein, Ian H Holmes
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616113419396661248')"
+           href="/paper/1616113419396661248?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                enable a more rapid iterative cycle of development, analysis and visualization. Results We have developed a package that provides a <span style='color:#ff0000'>python</span> interface to JBrowse 2’s suite of embeddable components, including the primary Linear Genome View. The package enables users to quickly set up, launch and customize JBrowse views from Jupyter notebooks. In addition, users can share their data via Google’s Colab notebooks
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1670465206036971520" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1670465206036971520" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1670465206036971520"
+           onclick="paper_favorite.loadThesisGroup('1670465206036971520')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1670465206036971520"
+           data-paper-id="1670465206036971520" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1670465206036971520')"
+           href="/paper/1670465206036971520?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Home range ecology of Indian rock <span style='color:#ff0000'>pythons</span> (<span style='color:#ff0000'>Python</span> molurus) in Sathyamangalam and Mudumalai Tiger Reserves, Tamil Nadu, Southern India.
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1670465206036971520')"
+           href="/paper/1670465206036971520?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Scientific Reports</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">4.996</span>)
+                
+                Pub Date : 2023-06-16 ,DOI:10.1038/s41598-023-36974-9
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1670465206036971520')"
+           href="/paper/1670465206036971520?adv">
+            <div class="div-text-line-one it-new-gary">
+                C S Vishnu,Benjamin Michael Marshall,Chinnasamy Ramesh,Vedagiri Thirumurugan,Gautam Talukdar,Abhijit Das
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1670465206036971520')"
+           href="/paper/1670465206036971520?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                The Indian rock <span style='color:#ff0000'>pythons</span> (<span style='color:#ff0000'>Python</span> molurus) are classified as a near-threatened snake species by the International Union for the Conservation of Nature and Natural Resources (IUCN); they are native to the Indian subcontinent and have experienced population declines caused primarily by poaching and habitat loss. We hand-captured the 14 rock <span style='color:#ff0000'>pythons</span> from villages, agricultural lands, and core forests to
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1616587561443082240" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1616587561443082240" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1616587561443082240"
+           onclick="paper_favorite.loadThesisGroup('1616587561443082240')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1616587561443082240"
+           data-paper-id="1616587561443082240" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616587561443082240')"
+           href="/paper/1616587561443082240?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                <span style='color:#ff0000'>Python</span> package for causal discovery based on LiNGAM
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616587561443082240')"
+           href="/paper/1616587561443082240?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Journal of Machine Learning Research</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">5.177</span>)
+                
+                Pub Date : 2023-01-01 ,DOI:
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616587561443082240')"
+           href="/paper/1616587561443082240?adv">
+            <div class="div-text-line-one it-new-gary">
+                Takashi Ikeuchi, Mayumi Ide, Yan Zeng, Takashi Nicholas Maeda, Shohei Shimizu
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616587561443082240')"
+           href="/paper/1616587561443082240?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                Causal discovery is a methodology for learning causal graphs from data, and LiNGAM is a well-known model for causal discovery. This paper describes an open-source <span style='color:#ff0000'>Python</span> package for causal discovery based on LiNGAM. The package implements various LiNGAM methods under different settings like time series cases, multiple-group cases, mixed data cases, and hidden common cause cases, in addition to evaluation
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1616993819757199360" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1616993819757199360" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1616993819757199360"
+           onclick="paper_favorite.loadThesisGroup('1616993819757199360')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1616993819757199360"
+           data-paper-id="1616993819757199360" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616993819757199360')"
+           href="/paper/1616993819757199360?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                AccuCalc: A <span style='color:#ff0000'>Python</span> Package for Accuracy Calculation in GWAS.
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616993819757199360')"
+           href="/paper/1616993819757199360?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Genes</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">4.141</span>)
+                
+                Pub Date : 2023-01-01 ,DOI:10.3390/genes14010123
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1616993819757199360')"
+           href="/paper/1616993819757199360?adv">
+            <div class="div-text-line-one it-new-gary">
+                Jana Biová,Nicholas Dietz,Yen On Chan,Trupti Joshi,Kristin Bilyeu,Mária Škrabišová
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1616993819757199360')"
+           href="/paper/1616993819757199360?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                calculation. We designed AccuCalc as a <span style='color:#ff0000'>Python</span> package for GWAS data analysis for any user-defined species-independent variant calling format (vcf) or HapMap format (hmp) as input data. AccuCalc saves analysis outputs in user-friendly tab-delimited formats and also offers visualization of the GWAS results as Manhattan plots accentuated by accuracy. Under the hood of <span style='color:#ff0000'>Python</span>, AccuCalc is publicly available and
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1623013462649159680" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1623013462649159680" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1623013462649159680"
+           onclick="paper_favorite.loadThesisGroup('1623013462649159680')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1623013462649159680"
+           data-paper-id="1623013462649159680" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1623013462649159680')"
+           href="/paper/1623013462649159680?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                CommonNNClustering─A <span style='color:#ff0000'>Python</span> Package for Generic Common-Nearest-Neighbor Clustering
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1623013462649159680')"
+           href="/paper/1623013462649159680?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Journal of Chemical Information and Modeling</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.162</span>)
+                
+                Pub Date : 2023-02-06 ,DOI:10.1021/acs.jcim.2c01493
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1623013462649159680')"
+           href="/paper/1623013462649159680?adv">
+            <div class="div-text-line-one it-new-gary">
+                Jan-Oliver Kapp-Joswig, Bettina G. Keller
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1623013462649159680')"
+           href="/paper/1623013462649159680?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                identify relevant, low-energetic molecular conformations. As such, they can provide a convenient basis for the construction of kinetic (core-set) Markov-state models. Here we present the open-source <span style='color:#ff0000'>Python</span> project CommonNNClustering, which provides an easy-to-use and efficient reimplementation of the common-nearest-neighbor (CommonNN) method. The package provides functionalities for hierarchical clustering
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3680287 src='https://xpic.x-mol.com/20230302%2F10.1021_acs.jcim.2c01493.jpg' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1640042268739383296" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1640042268739383296" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1640042268739383296"
+           onclick="paper_favorite.loadThesisGroup('1640042268739383296')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1640042268739383296"
+           data-paper-id="1640042268739383296" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1640042268739383296')"
+           href="/paper/1640042268739383296?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                espm: A <span style='color:#ff0000'>Python</span> library for the simulation of STEM-EDXS datasets
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1640042268739383296')"
+           href="/paper/1640042268739383296?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Ultramicroscopy</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">2.994</span>)
+                
+                Pub Date : 2023-03-23 ,DOI:10.1016/j.ultramic.2023.113719
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1640042268739383296')"
+           href="/paper/1640042268739383296?adv">
+            <div class="div-text-line-one it-new-gary">
+                Adrien Teurtrie, Nathanaël Perraudin, Thomas Holvoet, Hui Chen, Duncan T.L. Alexander, Guillaume Obozinski, Cécile Hébert
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1640042268739383296')"
+           href="/paper/1640042268739383296?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                We present two open-source <span style='color:#ff0000'>Python</span> packages: “electron spectro-microscopy” (espm) and “electron microscopy tables” (emtables). The espm software enables the simulation of scanning transmission electron microscopy energy-dispersive X-ray spectroscopy datacubes, based on user-defined chemical compositions and spatial abundance maps of constituent phases. The simulation process uses X-ray emission cross-sections
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1631443680613797888" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1631443680613797888" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1631443680613797888"
+           onclick="paper_favorite.loadThesisGroup('1631443680613797888')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1631443680613797888"
+           data-paper-id="1631443680613797888" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1631443680613797888')"
+           href="/paper/1631443680613797888?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                FTflow: An Open-Source <span style='color:#ff0000'>Python</span> GUI for FT-IM-MS Experiments
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1631443680613797888')"
+           href="/paper/1631443680613797888?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Journal of the American Society for Mass Spectrometry</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.262</span>)
+                
+                Pub Date : 2023-02-28 ,DOI:10.1021/jasms.2c00352
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1631443680613797888')"
+           href="/paper/1631443680613797888?adv">
+            <div class="div-text-line-one it-new-gary">
+                Elvin R. Cabrera, Arthur Laganowsky, Brian H. Clowers
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1631443680613797888')"
+           href="/paper/1631443680613797888?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                populations. Furthermore, input fields for experimental conditions are clearly laid out for users and ease-of-use. With flexibility in mind, the processing scripts and GUI interface are written entirely in <span style='color:#ff0000'>Python</span> and allows users the option to modify source code to fit their specific needs. While the intention for this tool is to be a starting point for exploratory analysis of FT-IM-MS data, it has the capability
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3781338 src='https://xpic.x-mol.com/20230406%2F10.1021_jasms.2c00352.jpg' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1620098645634400256" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1620098645634400256" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1620098645634400256"
+           onclick="paper_favorite.loadThesisGroup('1620098645634400256')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1620098645634400256"
+           data-paper-id="1620098645634400256" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1620098645634400256')"
+           href="/paper/1620098645634400256?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                GDDS: <span style='color:#ff0000'>Python</span> software for GNSS data download
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1620098645634400256')"
+           href="/paper/1620098645634400256?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">GPS Solutions</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">4.517</span>)
+                
+                Pub Date : 2023-01-30 ,DOI:10.1007/s10291-023-01400-0
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1620098645634400256')"
+           href="/paper/1620098645634400256?adv">
+            <div class="div-text-line-one it-new-gary">
+                Liguo Lu, Qiao Liang, Weijian Hu, Tangting Wu
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1620098645634400256')"
+           href="/paper/1620098645634400256?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                cumbersome, repetitive, and time-consuming, and it is challenging to meet the demands for rapid acquisition of multi-source data products. Therefore, we have developed a GNSS data download software with <span style='color:#ff0000'>Python</span>, which provides an interactive interface for the Windows or Linux operating system to realize the efficient and stable download for a large amount of GNSS data. The software includes five main function
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3603551 src='https://xpic.x-mol.com/20230201%2F10.1007_s10291-023-01400-0.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1620471545340182528" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1620471545340182528" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1620471545340182528"
+           onclick="paper_favorite.loadThesisGroup('1620471545340182528')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1620471545340182528"
+           data-paper-id="1620471545340182528" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1620471545340182528')"
+           href="/paper/1620471545340182528?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                An empirical study of automated unit test generation for <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1620471545340182528')"
+           href="/paper/1620471545340182528?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Empirical Software Engineering</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.762</span>)
+                
+                Pub Date : 2023-01-31 ,DOI:10.1007/s10664-022-10248-w
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1620471545340182528')"
+           href="/paper/1620471545340182528?adv">
+            <div class="div-text-line-one it-new-gary">
+                Stephan Lukasczyk, Florian Kroiß, Gordon Fraser
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1620471545340182528')"
+           href="/paper/1620471545340182528?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                for dynamically typed programming languages such as <span style='color:#ff0000'>Python</span>, however, is substantially more difficult due to the dynamic nature of these languages as well as the lack of type information. Our Pynguin framework provides automated unit test generation for <span style='color:#ff0000'>Python</span>. In this paper, we extend our previous work on Pynguin to support more aspects of the <span style='color:#ff0000'>Python</span> language, and by studying a larger variety of well-established
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3604273 src='https://xpic.x-mol.com/20230201%2F10.1007_s10664-022-10248-w.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1656844672349589504" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1656844672349589504" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1656844672349589504"
+           onclick="paper_favorite.loadThesisGroup('1656844672349589504')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1656844672349589504"
+           data-paper-id="1656844672349589504" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1656844672349589504')"
+           href="/paper/1656844672349589504?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                cegpy: Modelling with chain event graphs in <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1656844672349589504')"
+           href="/paper/1656844672349589504?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Knowledge-Based Systems</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">8.139</span>)
+                
+                Pub Date : 2023-05-11 ,DOI:10.1016/j.knosys.2023.110615
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1656844672349589504')"
+           href="/paper/1656844672349589504?adv">
+            <div class="div-text-line-one it-new-gary">
+                Gareth Walley, Aditi Shenvi, Peter Strong, Katarzyna Kobalczyk
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1656844672349589504')"
+           href="/paper/1656844672349589504?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                exists no software that allows a user to leverage the theoretical developments of the CEG model family in modelling processes with structural asymmetries. In this paper, we present cegpy: the first <span style='color:#ff0000'>Python</span> implementation of CEGs and the first across all languages to support structurally asymmetric processes. cegpy contains an implementation of Bayesian learning and probability propagation algorithms
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1671976850550407168" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1671976850550407168" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1671976850550407168"
+           onclick="paper_favorite.loadThesisGroup('1671976850550407168')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1671976850550407168"
+           data-paper-id="1671976850550407168" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1671976850550407168')"
+           href="/paper/1671976850550407168?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                A nosocomial Pseudomonas aeruginosa ST3495 isolated from a wild Burmese <span style='color:#ff0000'>python</span> (<span style='color:#ff0000'>Python</span> bivittatus) with suppurative pneumonia and bacteremia in Hainan, China
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1671976850550407168')"
+           href="/paper/1671976850550407168?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Brazilian Journal of Microbiology</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">2.214</span>)
+                
+                Pub Date : 2023-06-21 ,DOI:10.1007/s42770-023-01038-7
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1671976850550407168')"
+           href="/paper/1671976850550407168?adv">
+            <div class="div-text-line-one it-new-gary">
+                Roushan Li, Bo Ling, Jifeng Zeng, Xin Wang, Nuo Yang, Lixia Fan, Guiying Guo, Xuesong Li, Fei Yan, Jiping Zheng
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1671976850550407168')"
+           href="/paper/1671976850550407168?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                Pseudomonas aeruginosa is a common infectious agent associated with respiratory diseases in boas and <span style='color:#ff0000'>pythons</span>, however, the histopathology, resistance and virulence are yet described for this species. In this study, we investigated a dying Burmese <span style='color:#ff0000'>python</span> rescued from tropical rainforest in Hainan. Clinical signs were open-mouthed breathing, abnormal shedding and anorexia. Abundant yellow mucopurulent
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3982797 src='https://xpic.x-mol.com/20230623%2F10.1007_s42770-023-01038-7.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1644003666860716032" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1644003666860716032" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1644003666860716032"
+           onclick="paper_favorite.loadThesisGroup('1644003666860716032')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1644003666860716032"
+           data-paper-id="1644003666860716032" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1644003666860716032')"
+           href="/paper/1644003666860716032?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Dipwmsearch: a <span style='color:#ff0000'>python</span> package for searching di-PWM motifs
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1644003666860716032')"
+           href="/paper/1644003666860716032?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Bioinformatics</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.931</span>)
+                
+                Pub Date : 2023-04-03 ,DOI:10.1093/bioinformatics/btad141
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1644003666860716032')"
+           href="/paper/1644003666860716032?adv">
+            <div class="div-text-line-one it-new-gary">
+                Marie Mille, Julie Ripoll, Bastien Cazaux, Eric Rivals
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1644003666860716032')"
+           href="/paper/1644003666860716032?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                the HOCOMOCO database provides di-PWM motifs derived from experimental data. Currently, two programs, SPRy-SARUS and MOODS, can search for occurrences of di-PWMs in sequences. Results We propose a <span style='color:#ff0000'>Python</span> package called dipwmsearch, which provides an original and efficient algorithm for this task (it first enumerates matching words for the di-PWM, and then search these all at once in the sequence, even
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1662121870828011520" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1662121870828011520" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1662121870828011520"
+           onclick="paper_favorite.loadThesisGroup('1662121870828011520')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1662121870828011520"
+           data-paper-id="1662121870828011520" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1662121870828011520')"
+           href="/paper/1662121870828011520?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Pygenomics: manipulating genomic intervals and data files in <span style='color:#ff0000'>Python</span>
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1662121870828011520')"
+           href="/paper/1662121870828011520?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Bioinformatics</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">6.931</span>)
+                
+                Pub Date : 2023-05-25 ,DOI:10.1093/bioinformatics/btad346
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1662121870828011520')"
+           href="/paper/1662121870828011520?adv">
+            <div class="div-text-line-one it-new-gary">
+                Gaik Tamazian, Nikolay Cherkasov, Alexander Kanapin, Anastasia Samsonova
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1662121870828011520')"
+           href="/paper/1662121870828011520?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                 These features facilitate seamless integration of pygenomics routines into scripts and pipelines. The package is implemented in pure <span style='color:#ff0000'>Python</span> using its standard library only and contains the property-based testing framework. Comparison of pygenomics with other <span style='color:#ff0000'>Python</span> bioinformatic packages with relation to features and performance is presented. The performance comparison covers operations with genomic
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1658512506519638016" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1658512506519638016" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1658512506519638016"
+           onclick="paper_favorite.loadThesisGroup('1658512506519638016')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1658512506519638016"
+           data-paper-id="1658512506519638016" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1658512506519638016')"
+           href="/paper/1658512506519638016?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                PyExaFMM: An Exercise in Designing High-Performance Software With <span style='color:#ff0000'>Python</span> and Numba
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1658512506519638016')"
+           href="/paper/1658512506519638016?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Computing in Science & Engineering</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">2.152</span>)
+                
+                Pub Date : 2023-05-12 ,DOI:10.1109/mcse.2023.3258288
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1658512506519638016')"
+           href="/paper/1658512506519638016?adv">
+            <div class="div-text-line-one it-new-gary">
+                Srinath Kailasa, Tingyu Wang, Lorena A. Barba, Timo Betcke
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1658512506519638016')"
+           href="/paper/1658512506519638016?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                Numba is a game-changing compiler for high-performance computing with <span style='color:#ff0000'>Python</span>. It produces machine code that runs outside of the single-threaded <span style='color:#ff0000'>Python</span> interpreter, and that fully utilizes the resources of modern CPUs. This means support for parallel multithreading and auto-vectorization if available, as with compiled languages such as C++ or Fortran. In this article, we document our experience developing
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                    
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1623372161527922688" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1623372161527922688" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1623372161527922688"
+           onclick="paper_favorite.loadThesisGroup('1623372161527922688')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1623372161527922688"
+           data-paper-id="1623372161527922688" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1623372161527922688')"
+           href="/paper/1623372161527922688?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Shennong: A <span style='color:#ff0000'>Python</span> toolbox for audio speech features extraction
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1623372161527922688')"
+           href="/paper/1623372161527922688?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Behavior Research Methods</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">5.953</span>)
+                
+                Pub Date : 2023-02-07 ,DOI:10.3758/s13428-022-02029-6
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1623372161527922688')"
+           href="/paper/1623372161527922688?adv">
+            <div class="div-text-line-one it-new-gary">
+                Mathieu Bernard, Maxime Poli, Julien Karadayi, Emmanuel Dupoux
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1623372161527922688')"
+           href="/paper/1623372161527922688?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                an open source, reliable and extensible framework built on top of the popular Kaldi speech processing library. The <span style='color:#ff0000'>Python</span> implementation makes it easy to use by non-technical users and integrates with third-party speech modeling and machine learning tools from the <span style='color:#ff0000'>Python</span> ecosystem. This paper describes the Shennong software architecture, its core components, and implemented algorithms. Then, three applications
+                ...
+            </div>
+        </a>
+
+        
+            <div style="text-align: center;">
+                <img id=3627520 src='https://xpic.x-mol.com/20230210%2F10.3758_s13428-022-02029-6.PNG' style='max-width:350px;max-height:157px;cursor: pointer'  onError='setTimeout(function(){util.imgOnError(event)}, 1000)'  />
+            </div>
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1594388291493793792" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1594388291493793792" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1594388291493793792"
+           onclick="paper_favorite.loadThesisGroup('1594388291493793792')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1594388291493793792"
+           data-paper-id="1594388291493793792" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1594388291493793792')"
+           href="/paper/1594388291493793792?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Blindspots in <span style='color:#ff0000'>Python</span> and Java APIs Result in Vulnerable Code
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1594388291493793792')"
+           href="/paper/1594388291493793792?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">ACM Transactions on Software Engineering and Methodology</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.685</span>)
+                
+                Pub Date : 2023-04-26 ,DOI:https://dl.acm.org/doi/10.1145/3571850
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1594388291493793792')"
+           href="/paper/1594388291493793792?adv">
+            <div class="div-text-line-one it-new-gary">
+                Yuriy Brun, Tian Lin, Jessie Elise Somerville, Elisha M. Myers, Natalie Ebner
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1594388291493793792')"
+           href="/paper/1594388291493793792?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                replication applies to <span style='color:#ff0000'>Python</span> and involves 129 new developers and 22 new APIs. We find that using APIs with blindspots statistically significantly reduces the developers’ ability to correctly reason about the APIs in both languages, but that the effect is more pronounced for <span style='color:#ff0000'>Python</span>. Interestingly, for Java, the effect increased with complexity of the code relying on the API, whereas for <span style='color:#ff0000'>Python</span>, the opposite
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="searchPaperLi1624605320785510400" style="">
+    <div class="magazine-senior-search-results-list-left">
+        <input name="thesisId" value="1624605320785510400" type="checkbox"/>
+    </div>
+    <div class="magazine-senior-search-results-list-right" style=" ">
+        <a href="javascript:void (0)" id="favoriteBtn1624605320785510400"
+           onclick="paper_favorite.loadThesisGroup('1624605320785510400')"
+           class="itsmblue" data-content="点击收藏" nofav
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display: ">
+            <i class="fa fa-star-o it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a href="javascript:void (0)" id="cancelFavoriteBtn1624605320785510400"
+           data-paper-id="1624605320785510400" faved class="itsmblue"
+           data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover"
+           style="float: right;display:none">
+            <i class="fa fa-star it-red fa-lg" aria-hidden="true" style="color:
+                                                #ff7010"></i>
+        </a>
+
+        <a target="_blank" onclick="xmol.changeReadCss('1624605320785510400')"
+           href="/paper/1624605320785510400?adv">
+            <div class="it-bold space-bottom-m10">
+                <span ref="readIco" style="display:none">
+                    <img src="https://static.x-mol.com/jcss/images/icon-magazine-read.png">&nbsp;
+                </span>
+                Biofuels and Nanocatalysts: <span style='color:#ff0000'>Python</span> Boosting Visualization of Similarities.
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1624605320785510400')"
+           href="/paper/1624605320785510400?adv">
+            <div class="div-text-line-one it-new-gary">
+                <em class="it-blue">Materials</em>
+                
+                    (IF&nbsp;<span style="color: #FF7010;">3.748</span>)
+                
+                Pub Date : 2023-01-30 ,DOI:10.3390/ma16031175
+            </div>
+        </a>
+        <a target="_blank" onclick="xmol.changeReadCss('1624605320785510400')"
+           href="/paper/1624605320785510400?adv">
+            <div class="div-text-line-one it-new-gary">
+                Fernando Gomes Souza,Kaushik Pal,Jeffrey Dankwa Ampah,Maria Clara Dantas,Aruzza Araújo,Fabíola Maranhão,Priscila Domingues
+            </div>
+            
+        </a>
+
+
+        <a target="_blank" onclick="xmol.changeReadCss('1624605320785510400')"
+           href="/paper/1624605320785510400?adv">
+            <div class="div-text-line-three itsmlink">
+                
+                
+                    <img src="https://static.x-mol.com/jcss/images/icon-oa.jpg"/>&nbsp;&nbsp;
+                
+                submitted to automatic analysis via the Visualization of Similarities Method implemented in VOSviewer 1.6.18 software. Then, the data extracted from the VOSviewer were processed by software written in <span style='color:#ff0000'>Python</span>, which allowed the use of the network data generated by the Visualization of Similarities Method. Thus, it was possible to establish the relationships for the pair between the nodes of all clusters
+                ...
+            </div>
+        </a>
+
+        
+    </div>
+</li>
+                                        
+                                    
+                                
+                                
+                            
+                        </ul>
+                        
+                            <p style="padding-left: 40px;" class="it-blue">
+                                共有2706个结果符合您的查询条件，只显示了前300个，请优化您的查询条件，以获取更精确的结果。
+                            </p>
+                        
+                        
+                    </div>
+                    
+
+
+
+
+
+<script type="text/javascript">
+    var page = (function () {
+        var currentPage = '1';
+        var totalPage = '10';
+
+        if (currentPage == '') {
+            currentPage = 0;
+        }
+        if (totalPage == '') {
+            totalPage = 0;
+        }
+
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        if (search) {
+            if (search.length > 1) {
+                search = search.replace("?", "");
+            }
+        }
+
+        var newOption = "";
+        var _seachs = search.split("&");
+        for (var i = 0; i < _seachs.length; i++) {
+            var urlTemp = _seachs[i];
+
+            /**
+             // * 去除需要登录参数，期刊论文等地方，再跳转到第二页的时候会有此参数，但是每次页面跳转时不需要再携带此参数
+             */
+            if (urlTemp.indexOf("needLogin") >= 0) {
+                continue;
+            }
+
+
+            if (urlTemp.indexOf("pageIndex") >= 0) {
+                continue;
+            }
+            if (newOption == "") {
+                newOption = urlTemp;
+            } else {
+                newOption = newOption + "&" + urlTemp;
+            }
+        }
+
+        function pageTo(index) {
+            var actionMethod = "";
+            if (actionMethod != "") {
+                var func = eval(actionMethod);
+                func(index);
+                return;
+            }
+            var pageUrl = "?" + newOption + "&pageIndex=" + index + hash;
+            window.location.href = pageUrl;
+        }
+
+        function setSize(pageSize) {
+            var actionMethod = "";
+            if (actionMethod != "") {
+                var func = eval(actionMethod);
+                func(pageSize);
+            }
+            return;
+        }
+
+        function pre() {
+            if (parseInt(currentPage) <= 1) {
+                pageTo(1);
+                return;
+            }
+            pageTo(parseInt(currentPage) - 1);
+        }
+
+        function next() {
+            if (parseInt(currentPage) >= parseInt(totalPage)) {
+                pageTo(totalPage);
+                return;
+            }
+            var nextPage = parseInt(parseInt(currentPage) + parseInt(1));
+            pageTo(nextPage);
+        }
+
+        return {
+            pageTo: pageTo,
+            setSize: setSize,
+            next: next,
+            pre: pre
+        };
+    })();
+</script>
+
+
+    <div class="pagination pull-right">
+        <ul>
+            
+            
+                
+            
+
+            
+            
+                
+            
+
+            <li class="previous">
+                <a href="javascript:void(0)" onclick="page.pre()">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+            </li>
+            
+                <li  class="active" >
+                    <a href="javascript:void(0)" onclick="page.pageTo('1')">1</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('2')">2</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('3')">3</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('4')">4</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('5')">5</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('6')">6</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('7')">7</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('8')">8</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('9')">9</a>
+                </li>
+            
+                <li >
+                    <a href="javascript:void(0)" onclick="page.pageTo('10')">10</a>
+                </li>
+            
+
+            <li class="next">
+                <a href="javascript:void(0)" onclick="page.next()">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+                </div>
+
+                <div class="space-bottom-m10 pull-right">
+                    <img src="https://static.x-mol.com/css/images/sapp.jpg"/>
+                </div>
+                
+                    <div class="magazine-senior-search-right">
+                        <div class="magazine-senior-search-right-top">
+                            <span class="it-bold it18">搜索范围</span>
+                        </div>
+                        <div class="magazine-senior-search-right-content">
+                            <div class="magazine-senior-search-right-date-list spacetopm10">
+                                <div class="magazine-senior-search-right-first-form">
+                                    <label class="">
+                                        <input onclick="xmol.changeSearchField(0)"
+                                               type="radio"  name="sf"
+                                               value="0" >&nbsp;全部
+                                    </label>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <label class="it-blue">
+                                        <input type="radio" 
+                                               onclick="xmol.changeSearchField(1)"
+                                               name="sf" value="1" checked>&nbsp;标题摘要
+                                    </label>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <label class="">
+                                        <input type="radio" 
+                                               onclick="xmol.changeSearchField(2)" name="sf"
+                                               value="2" >&nbsp;作者
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                            <div class="magazine-senior-search-right-top">
+                                <span class="it-bold it18">时间</span>
+                            </div>
+                            <div class="magazine-senior-search-right-content">
+                                <div class="magazine-senior-search-right-date-list">
+                                    <ul>
+                                        <li>
+                                            <a class=""
+                                               href="javascript:void (0)"
+                                               onclick="xmol.searchByDate('')">
+                                                <span class="magazine-right-date-left">全部</span>
+                                                <span class="magazine-right-date-right">
+                                                (10000+)
+                                            </span>
+                                            </a>
+                                        </li>
+
+                                        
+                                            <li>
+                                                <a class="magazine-right-date-active"
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2023')">
+                                                <span class="magazine-right-date-left"> 2023年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(2706)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2022')">
+                                                <span class="magazine-right-date-left"> 2022年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(5071)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2021')">
+                                                <span class="magazine-right-date-left"> 2021年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(4017)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2020')">
+                                                <span class="magazine-right-date-left"> 2020年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(3004)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2019')">
+                                                <span class="magazine-right-date-left"> 2019年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(2014)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2018')">
+                                                <span class="magazine-right-date-left"> 2018年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(1398)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2017')">
+                                                <span class="magazine-right-date-left"> 2017年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(1035)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2016')">
+                                                <span class="magazine-right-date-left"> 2016年
+                                                </span>
+                                                    <span class="magazine-right-date-right">(841)</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a class=""
+                                                   href="javascript:void (0)"
+                                                   onclick="xmol.searchByDate('2015')">
+                                                <span class="magazine-right-date-left"> 2015年及以前
+                                                </span>
+                                                    <span class="magazine-right-date-right">(3674)</span>
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        <div class="magazine-senior-search-right-top">
+                            <span class="it-bold it18">IF</span>
+                        </div>
+                        <div class="magazine-senior-search-right-content">
+                            <div class="magazine-senior-search-right-date-list spacetopm10">
+                                <div class="magazine-senior-search-right-first-form">
+                                    <input type="number" id="impactFactorStart_ifInput" min="0" class="typeahead"
+                                           value=""
+                                           style="position:  relative; vertical-align: top;width:138px; ">
+                                    <span style="display:inline-block;">——</span>
+                                    <input type="number" id="impactFactorEnd_ifInput" min="0" class="typeahead"
+                                           value=""
+                                           style="position: relative; vertical-align: top;width:138px; ">
+                                </div>
+                                <div class="magazine-senior-search-right-btn">
+                                    <a type="button" href="javascript:void (0)"
+                                       onclick="xmol.searchByIF()"
+                                       class="btn-blue-new" style="width:140px;">确定
+                                    </a>&nbsp;&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<style type="text/css">
+    .twitter-typeahead {
+        width: auto;
+        line-height: 30px;
+    }
+
+    .journalHide {
+        display: none;
+    }
+
+    .journalShow {
+        display: block;
+    }
+</style>
+        </div>
+
+    </div>
+    <!-- end page -->
+    
+
+
+
+
+<div class="mol-footer-new" id="footer" style="margin-top: -60px;height: 160px;">
+    <div class="mol-footer-content-new">
+        <div class="mol-footer-content-new-left">
+            <ul>
+                <li>
+                    <a href="/journal/index">
+                        学术期刊
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/news/index">
+                        行业资讯
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/university/index">
+                        全球导师
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="/ask">
+                        X-MOL问答
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/job">求职广场</a>
+                </li>
+
+                <li>
+                    <a href="/allSite">
+                        网址导航
+                    </a>
+                </li>
+                
+                
+                
+                
+                
+                <li>
+                    <a href="/aboutUs">
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a href="/article/helpCenter/0">
+                        帮助中心
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="mol-footer-text-new">
+            <span>客服邮箱：<a href="mailTo:service@x-mol.com">service@x-mol.com</a> </span></br>
+            <span>官方微信：X-molTeam2 </span></br>
+            <span>邮编：100098 </span></br>
+            <span>地址：北京市海淀区知春路56号中航科技大厦 </span></br>
+        </div>
+        <div class="mol-footer-content-new-right">
+            <img src="https://static.x-mol.com/newCss/images/app-download.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://static.x-mol.com/newCss/images/wechat-qr.png">
+        </div>
+    </div>
+    <div class="mol-footer-bottom-new">
+        <span>
+
+
+
+
+Copyright © 2014-2023 北京衮雪科技有限公司 All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>
+            <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备11026495-2号</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802027423"
+               style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                <img src="https://static.x-mol.com/css/images/beian.png" style="float:left;"/>
+                京公网安备 11010802027423号
+            </a>
+        </span>
+        <div style="display: none;">
+            
+
+
+
+
+
+
+
+<!-- Piwik -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img style="display: none" src="/test_count/1688052186015?cpr="/>
+
+
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+    
+
+<script>
+    window.initStack["sidebarBtn"] = function () {
+        var adviceAddVali = {};
+        var showGotoTop = function () {
+            h = 400,
+                t = $(document).scrollTop(),
+                t > h ? $("#moquu_top_new").show() : $("#moquu_top_new").hide();
+        };
+
+        $(window).scroll(function () {
+            showGotoTop();
+        });
+
+        showGotoTop();
+        $("#moquu_top_new").click(function () {
+            $(document).scrollTop(0);
+        });
+
+        // $("#moquu_wmaps_new").click(function () {
+        //     // util.dialog({
+        //     // 	url : "/adviceFeedback",
+        //     // 	callback : function() {
+        //     // 		adviceAddVali = $("#adviceAddForm").validate();
+        //     // 	}
+        //     // });
+        //     window.location.href = contextPath + "/message/add"
+        // });
+    };
+
+</script>
+
+<div id="moquu_wapp_new" class="moquu_wapp_new"><a href="javascript:void(0)">down
+    <div class="moquu_wapph_new"></div>
+</a></div>
+<div id="moquu_wshare_new" class="moquu_wshare_new"><a href="javascript:void(0)">wechat
+    <div class="moquu_wshareh_new"></div>
+</a></div>
+<div id="moquu_wmaps_new">
+    <a id="FeedbackModal" target="_blank" href="/message/add" class='moquu_wmaps_new'>bug</a>
+    <a id="FeedbackModalNoRead" target="_blank" href="/message/index"
+       style="background: url('https://static.x-mol.com/css/images/moquu_feed_no_read.png') no-repeat;display: none"
+       class='moquu_wmaps_new'>bug</a>
+</div>
+<a id="moquu_top_new" style="display:block;" href="javascript:void(0)"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            } else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+
+
+<div style="display: none">
+    <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1281175429&web_id=1281175429"></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
