@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 '''
-不登陆只能浏览两页
+不登陆只能浏览两页，工作文件夹内不能保存有html文件
 '''
 import requests,time,os
 from random import randint
