@@ -71,3 +71,5 @@ for root,dirs,files in os.walk(r'C:\Users\宋颖\Desktop\Python_product\3.python
                 html = f.read()
                 titles,magazines,abstracts,authors = parse_html(html)
                 save_info(file+'.csv',titles,magazines,abstracts,authors)
+
+print('搜索完成，数据已保存')
